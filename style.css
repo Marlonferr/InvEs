@@ -1,45 +1,37 @@
+.whapper{
+    display:grid;
+    grid-template-columns: 3fr 1fr; 
+    grid-template-rows: auto;  
+    grid-template-areas: "header header"
+                "main  button"
+                "main   aside"
+                "footer footer"
+        ;
+        gap: 20px;
+        }    
+header{
+    background-color: aquamarine;
+    grid-area: header;
+}
+main{
+    background-color: aqua;
+    grid-area: main;
 
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
-#logo {
-   font-family: 'aboreto', sans-serif;
-    color: rgb(4, 99, 7) ;
-}
+  
 
-
-#noticia_h{
-     font-family: "aboreto", sans-serif;;
-
-    font-size: 20px;
+ 
 }
-.video_h {
-    width: 500px;
-    height: 500px;
+button{
+    background-color: chartreuse;
+    grid-area: button;
 }
-article{
-       font-size: 10px;
-}
-strong{
-    font-family: 'aboreto';
-        font-size: 20px;
-}
-/* area de box do site*/
-.destaques{
-    background-color: #d9d9d9;
-    min-width: 300px;
-    list-style: none;
- margin-top: 100px;
-  list-style: none;
-  padding-bottom: 300px;
-  width: 30%;
-    flex-direction: column;
-}
-img{
-     min-width: 300px;
-}
-img , .destaques{
- display: inline-flex;
- width: 300px;
- height: 300px;
-
+footer{
+    background-color: darkkhaki;
+    grid-area: footer;
+} 
+aside{
+    background-color: blueviolet;
+    grid-area: aside;
+    padding-top: 1000px;
+    padding-left: auto;
 }
