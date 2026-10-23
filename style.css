@@ -35,3 +35,19 @@ aside{
     padding-top: 1000px;
     padding-left: auto;
 }
+/*formatando o menu*/
+nav {
+
+    align-items: center;
+       
+        
+}
+nav a{
+    border: 1em;
+    background-color: rgb(25, 128, 208);
+    padding: 10px 30px;
+    border-radius: 30px;
+ font-size: 12px;
+ font-weight: bolder;
+   align-items: center;
+}
