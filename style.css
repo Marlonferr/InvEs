@@ -10,28 +10,50 @@
         gap: 20px;
         }    
 header{
-    background-color: aquamarine;
+        background-color: rgb(183, 183, 182);
     grid-area: header;
 }
+#logo{
+    text-align: left;
+    margin: 0;
+   
+}
 main{
-    background-color: aqua;
+       background-color: rgb(183, 183, 182);
     grid-area: main;
 
-  
 
  
 }
 button{
-    background-color: chartreuse;
+    background-color: rgb(145, 145, 145);
     grid-area: button;
 }
 footer{
-    background-color: darkkhaki;
+    background-color: rgb(183, 183, 182);
     grid-area: footer;
 } 
 aside{
-    background-color: blueviolet;
+       background-color: rgb(183, 183, 182);
     grid-area: aside;
     padding-top: 1000px;
     padding-left: auto;
+     
+}
+/*formatando o menu*/
+nav {
+
+  margin-left: 15%;
+     align-items: center;
+     height: 50px;
+}
+nav a{
+    border: 1em;
+    background-color: rgb(91, 92, 93);
+    padding: 10px 30px;
+    border-radius: 30px;
+ font-size: 12px;
+ font-weight: bolder;
+   align-items: center;
+  
 }
