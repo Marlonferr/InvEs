@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	 <link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
@@ -13,20 +14,22 @@
    <h1 id="logo">InvEs</h1>
 		<nav>
        
-			<a>Mais pesquisados</a>
+			<a  href="www.civilizor.com.br">Mais pesquisados</a>
 				<a href="www.civilizor.com.br">hoje</a>
-				<a>Em alta</a>
-				<a>Em baixa</a>
-				<a>papeis abertos</a>
-				<a>noticias</a>
-				<a>mercado</a>
+				<a  href="www.civilizor.com.br">Em alta</a>
+				<a  href="www.civilizor.com.br">Em baixa</a>
+				<a  href="www.civilizor.com.br">papeis abertos</a>
+				<a  href="www.civilizor.com.br">noticias</a>
+				<a  href="www.civilizor.com.br">mercado</a>
 				<a href="Portifolio.html">Portifolio</a>
 		</nav>
 	</header>
 
 
 <div class="button"> 
-<input value="digite um valor"> <button> Pesquisar</button>
+  
+<input type="text" id="campo-pesquisa" name="pesquisa" placeholder="digite uma pesquisa">
+ <button id="botao-pesquisar" type="button"> Pesquisar</button>
 </div>
 
 <main class="main">
@@ -72,19 +75,44 @@
 
 </main>
 <aside class="aside">
+  <form action="/action_page.php" action="login.html" method="post"> 
+  <p><h3>Entrar: </h3></p>
+  <label for="fname">Login</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Senha</label><br>
+  <input type="password" id="lname" name="lname" value="Doe"><br><br>
+  <button type="button" >Login</button>
+  <br>
+  <br>
+  <a href=""><b>Criar conta</b></a>
+</form>
+  <p class="texto-aside">Why do we use it?
+
+It is a long established fact that a reader will be distracted by<br> 
+the readable content of a page when looking at its layout. The point <br> 
+of using Lorem Ipsum is that it has a more-or-less normal distribution<br> 
+ of letters, as opposed to using 'Content here, content here', making it look <br> 
+ like readable English. Many desktop publishing packages and web page editors<br> 
+  now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' <br> 
+  will uncover many web sites still in their infancy. Various versions have evolved<br> 
+   over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br> 
+  </p>
 
 </aside>
 
 <footer>
-    <dt>
-		<dd>Contato</dd>
-		<dd>Fale com a gente</dd>
-		<dd>Principais noticias</dd>
-	</dt>
+
+<footer class="rodape">
+  <ul>
+    <li><a href="#contato">Contato</a></li>
+    <li><a href="#fale">Fale com a gente</a></li>
+    <li><a href="#noticias">Principais notícias</a></li>
+  </ul>
+</footer>
 
 </footer>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
-
+</body>
 </html>

@@ -1,3 +1,4 @@
+/*Este é o tipo de div que esta sobreponto todo o corpo html*/
 .whapper{
     display:grid;
     grid-template-columns: 3fr 1fr; 
@@ -9,15 +10,19 @@
         ;
         gap: 20px;
         }    
+/*Todo o cabeçalho da pagina web*/
 header{
         background-color: rgb(183, 183, 182);
     grid-area: header;
+    display:inline-block; position:relative;
 }
+/*O logo*/
 #logo{
     text-align: left;
     margin: 0;
    
 }
+/*O grid Main*/
 main{
        background-color: rgb(183, 183, 182);
     grid-area: main;
@@ -25,20 +30,33 @@ main{
 
  
 }
+/*O botão de pesquisa*/
 button{
     background-color: rgb(145, 145, 145);
     grid-area: button;
 }
+/*footer é o rodapé*/
 footer{
     background-color: rgb(183, 183, 182);
     grid-area: footer;
 } 
+/*conteudo aside na parte esquerda*/
 aside{
        background-color: rgb(183, 183, 182);
     grid-area: aside;
-    padding-top: 1000px;
+  
     padding-left: auto;
      
+}
+/*formularios da pagina formata todos*/
+form , .rodape{
+     margin: 30px 30px;
+}
+/*formatando a margin do footer*/
+
+/*Toda  a parte de texto do site web*/
+.texto-aside{
+ margin: 20px 20px;
 }
 /*formatando o menu*/
 nav {
@@ -47,6 +65,7 @@ nav {
      align-items: center;
      height: 50px;
 }
+/* nav com o filho a para formatar todos os links*/
 nav a{
     border: 1em;
     background-color: rgb(91, 92, 93);
